@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   cron:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Sending password update
         run: |
